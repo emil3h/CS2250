@@ -1,0 +1,111 @@
+body{
+    background-color: gray;
+}
+
+h1, h3{ /* Requirement-2.B */
+    font-family: monospace; /* Requirement-2.1 */
+}
+
+a{
+    text-decoration: none;
+    color: pink;
+}
+
+nav{ /* Requirement-2.A */
+    background-color: #bc9b5d; /* Requirement-2.4 */
+    padding: 5px;
+}
+
+nav a{ /* Requirement-2.F */
+    font-family: monospace;
+    font-size: 20px;
+    padding: 5px; /* Requirement-2.6 */
+    text-decoration: none; /* Requirement-2.2 */
+    color: black; /* Requirement-2.3 */
+    border-right: solid black;
+}
+
+nav>a:last-child{ /* Requirement-2.E */
+    border-right: none;
+}
+
+a:hover{ 
+    color:white
+}
+
+details{ /* Requirement-2.G */
+    color: #5619e6;
+    font-size: 0.5cm; /* Requirement-2.9 */
+}
+
+summary{ /* Requirement-2.H */
+    color: red;
+}
+
+.emilPic{
+    border-color: black; 
+    border-top:  #66a8ff; 
+    border-style: solid; /* Requirement-2.5 */
+}
+
+.iphoneImg{
+    border-color: black; 
+    border-style: dashed; 
+    width: 250px; /*Requirement-2.7*/
+    float: left; /*Requirement-2.11*/
+    margin-right: 5px;
+}
+
+.hobbieList{ /* Requirement-2.C */
+    list-style: armenian; /* Requirement-2.8 */
+}
+
+#iphoneSummary{ /* Requirement-2.D */
+   font-size: 120%; /* Requirement-2.10 */
+}
+
+#iphone3gsSummary{
+    padding-top: 20px;
+    font-size: 120%; 
+    clear: left; /* Requirement-2.13 */
+ }
+
+ .iphone3gsImg{
+    border-color: black; 
+    border-style: dotted; 
+    width: 250px; 
+    float: right; 
+    margin-left: 5px;
+    
+}
+
+section{
+    display: block; /* Requirement-2.12 */
+}
+
+.history {
+    width: 300px;
+    height: 200px;
+    background-color: #50ffe2;
+    overflow: scroll; /* Requirement-2.14 */
+  }
+
+
+  p.mods{
+    visibility: hidden; /* Requirement-2.16 */
+  }
+
+
+  div.why{
+    position: static;  /* Requirement-2.15 */
+  }
+
+  .zIndexExample{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    border: solid;
+    z-index: -1;  /* Requirement-2.17 */
+  }
+
+  
